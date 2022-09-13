@@ -20,10 +20,16 @@
         height: 256px;
         rotate: 130deg;
         z-index:2;
+        transition: .25s all;
 
         @media(max-width:1024px){
-            width:128px;
-            height:128px;
+            width:64px;
+            height:64px;
+
+            &:hover{
+                width:128px;
+                height:128px;
+            }
         }
 
         .img {
