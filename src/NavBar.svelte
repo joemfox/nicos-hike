@@ -41,7 +41,7 @@
     }
 
     @mixin bar-width(){
-        width: 270px;
+        width: 210px;
 
         @media(min-width:480px){
             width:360px;
@@ -59,9 +59,9 @@
         font-family: Atlantis;
         top: 0;
         z-index: 8;
-        width: 100%;
+        width: 100vw;
         max-width: 1536px;
-        left:50%;
+        left:50vw;
         transform:translateX(-50%);
         height: 84px;
         overflow: hidden;
