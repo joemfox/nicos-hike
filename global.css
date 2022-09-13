@@ -9,7 +9,8 @@ body{
 	overflow-x:hidden;
 	padding:none;
 	margin:0;
-	background-color:#bcd8c1;
+	background-image:url(img/bg-tile.gif);
+	background-size:480px;
 }
 
 *{
