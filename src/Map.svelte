@@ -311,7 +311,7 @@
                 &:after {
                     content: "■";
                     left: 5px;
-                    font-size:0.75rem;
+                    font-size:0.85rem;
 
                     @media(min-width:480px){
                         font-size: 1.5rem;
@@ -409,6 +409,11 @@
             position: absolute;
             z-index: 4;
             transform: translate(var(--x), var(--y));
+
+            @media(max-width: 480px){
+                font-size:2rem;
+                line-height:1.5rem;
+            }
 
             &.right {
                 text-align: right;
