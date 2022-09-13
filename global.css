@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Atlantis';
-	src: url('/fonts/AtlantisInternational.woff') format('woff');
+	src: url('fonts/AtlantisInternational.woff') format('woff');
 }
 
 body{
