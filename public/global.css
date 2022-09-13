@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Atlantis';
+	src: url('/fonts/AtlantisInternational.woff') format('woff');
+}
+
+body{
+	padding:none;
+	margin:0;
+	background-color:#bcd8c1;
+}
+
+*{
+	box-sizing: border-box;
+}

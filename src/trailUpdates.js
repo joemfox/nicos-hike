@@ -1,0 +1,1 @@
+export default {"updates":[{"date":"9/12/22","location":["-92.071","46.863"],"text":"I'm hiking the Superior Hiking Trail! Check back daily for trail updates!","mileage":"0","miles_to_date":"0"}]}
