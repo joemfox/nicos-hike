@@ -352,7 +352,6 @@
             line-height: 1.25rem;
             overflow-y: hidden;
             z-index: 4;
-            transition:.5s all;
 
             &.hidden {
                 z-index: 2;
