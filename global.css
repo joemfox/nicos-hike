@@ -5,7 +5,8 @@
 
 body{
 	position:relative;
-	width:100%;
+	width:100vw;
+	overflow-x:hidden;
 	padding:none;
 	margin:0;
 	background-color:#bcd8c1;
