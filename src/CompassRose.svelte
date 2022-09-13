@@ -16,8 +16,8 @@
         position: absolute;
         top: 0.5rem;
         right: .5rem;
-        width: 256px;
-        height: 256px;
+        width: 128px;
+        height: 128px;
         rotate: 130deg;
         z-index:2;
         transition: .25s all;
@@ -30,6 +30,10 @@
                 width:128px;
                 height:128px;
             }
+        }
+
+        @media(min-width: 1536px){
+            right: calc(50vw - 768px);
         }
 
         .img {
