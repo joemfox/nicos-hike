@@ -1,6 +1,7 @@
 <script>
 	import Map from './Map.svelte'
 	import NavBar from './NavBar.svelte';
+	import CompassRose from './CompassRose.svelte';
 	import updates from "./trailUpdates";
 
 	const TOTALMILES = 260
@@ -13,10 +14,12 @@
 	<div class="map" >
 		<Map TOTALMILES={TOTALMILES}/>
 	</div>
+	<CompassRose/>
 </div>
 
 <style>
 .container{
+	position:relative;
 	margin-top:84px;
 }
 
