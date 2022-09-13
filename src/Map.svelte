@@ -311,6 +311,7 @@
                 &:after {
                     content: "■";
                     left: 5px;
+                    font-size:0.75rem;
 
                     @media(min-width:480px){
                         font-size: 1.5rem;
