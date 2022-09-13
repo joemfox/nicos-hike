@@ -15,7 +15,7 @@
     </div>
     <div class="hiker-wrapper">
         <div id="pixel-hiker" style="--done:{FINISHEDPCT}">
-            <img alt="illustration of nico" src="/nicohiking.gif" />
+            <img alt="illustration of nico" src="img/nicohiking.gif" />
         </div>
     </div>
 </div>

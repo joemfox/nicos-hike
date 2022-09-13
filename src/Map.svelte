@@ -178,7 +178,7 @@
 <svelte:window on:resize={placeLabels} />
 
 <div id="map-frame">
-    <div class="aspect" bind:clientWidth={w} bind:clientHeight={h}>
+    <div class="aspect" bind:clientWidth={w} bind:clientHeight={h} style={'background-image:url("img/superior-hiking-trail.gif")'}>
         {#each labels as label}
             <div use:cssVariables={label[2]} class={`map-label ${label[3]}`}>
                 {label[0]}
@@ -264,7 +264,7 @@
             display: block;
             width: 1536px;
             height: 100%;
-            background-image: url("/superior-hiking-trail.gif");
+            // background-image: url("img/superior-hiking-trail.gif");
             top: 0;
             left: 50%;
             transform: translate(-50%, 0);
