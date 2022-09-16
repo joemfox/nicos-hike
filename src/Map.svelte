@@ -202,7 +202,7 @@
                     <div
                         out:slideOut={{ duration: 500 }}
                         in:slideIn={{ duration: 500 }}
-                        data-mileage={`${update.miles_to_date}/${TOTALMILES} miles (${Math.round(update.miles_to_date/TOTALMILES*100)}%) done  \n${update.mileage} miles today`}
+                        data-mileage={`${Math.round(update.miles_to_date)}/${TOTALMILES} miles (${Math.round(update.miles_to_date/TOTALMILES*100)}%) done  \n${Math.round(update.mileage)} miles today`}
                         class="update-box"
                     >
                         <p class="bold">{apdate(update.date)}</p>
